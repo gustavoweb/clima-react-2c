@@ -70,7 +70,7 @@ function App() {
               </div>
             </div>
 
-          </div> {/* Fecha #card-resultado*/}
+          </div> {/* Fecha #card-resultado */}
 
           
         </div>
