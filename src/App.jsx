@@ -21,8 +21,8 @@ function App() {
 
     // Try Executa os comandos
     try{
-      const API_KEY = "";
-      const url = "";
+      const API_KEY = "50878f4678cd0841144b44b2fca0ccc0";
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${API_KEY}&units=metric&lang=pt_br`;
       const resposta = await fetch(url);
 
       if(!resposta.ok){
